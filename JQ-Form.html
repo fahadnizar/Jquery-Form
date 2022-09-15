@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Form Validation</title>
+    <script src="assets/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="Assets/student.png">
+  </head>
+  <body>
+    <div class="formBox">
+      <h2 class="formTitle">Student Registration</h2>
+      <form id="form" method="post" action=".">
+        <table>
+          <tr>
+            <td><label>First name:</label></td>
+            <td><input type="text" id="firstname" name="fname"></td>
+          </tr>
+          <tr>
+            <td><label>Last name:</label></td>
+            <td><input type="text" id="lastname" name="lname"></td>
+          </tr>
+          <tr>
+            <td><label for="email"> Email </label></td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label>password:</label></td>
+            <td><input type="password" name="password" id="password1" /></td>
+          </tr>
+          <tr>
+            <td><label>Re-enter Password:</label></td>
+            <td><input type="password" name="password2" id="password2" /></td>
+          </tr>
+          <tr>
+            <td><label for="number">Contact no:</label></td>
+            <td><input type="number" id="number" name="number" /></td>
+          </tr>
+          <tr>
+            <td><label>Address:</label></td>
+            <td><textarea id="myTextarea"></textarea></td>
+          </tr>
+          <tr>
+            <td>
+              <h3 class="gender">select your gender</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><label>male</label></td>
+            <td><input type="radio" name="sex" value="S" id="msex"></td>
+          </tr>
+          <tr>
+            <td><label>Female</label></td>
+            <td><input type="radio" name="sex" value="L" id="fsex"></td>
+          </tr>
+          <tr>
+            <td><label>Other</label></td>
+            <td><input type="radio" name="sex" value="O" id="osex"></td>
+          </tr>
+          <tr>
+            <td>
+              <h3 class="interest">Select your Interests:</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="intetrest1">Computer programming</label></td>
+            <td><input type="checkbox" id="intetrest1" name="intetrests" value="Interest"></td>
+          </tr>
+          <tr>
+            <td><label for="intetrest2">Web Desining</label></td>
+            <td><input type="checkbox" id="intetrest2" name="intetrests" value="Interest"></td>
+          </tr>
+          <tr>
+            <td><label for="intetrest3">IOT</label></td>
+            <td><input type="checkbox" id="intetrest3" name="intetrests" value="Interest"></td>
+          </tr>
+          <tr>
+            <td><label for="cars">University:</label></td>
+            <td><select id="cars" name="cars1">
+                <option value="volvo">KTU</option>
+                <option value="saab">CUSAT</option>
+                <option value="fiat">KU</option>
+                <option value="audi">NITC</option>
+              </select>
+          </tr>
+        </table>
+        <div class="registerBox"><input type="submit" value="Register" class="register"></div>
+      </form>
+    </div>
+  </body>
+</html>

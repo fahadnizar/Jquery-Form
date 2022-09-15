@@ -1,0 +1,61 @@
+
+.formBox {
+	margin-left: 342px;
+	margin-top: 100px;
+	width: 620px;
+	padding:10px;
+	border: 1px solid rgb(221, 225, 221);
+	padding-bottom: 5px;
+	border-radius: 5px;
+	margin-bottom: 90px;
+	background-color: whitesmoke;
+	box-shadow: 0px 2px 10px 0px;
+}
+
+.formTitle {
+	margin-left: 190px;
+	color: #040404;
+}
+
+.interest {
+	font-size: 15px;
+	margin-left: 10px;
+}
+.gender {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+body {
+	background-image: url("body.jpg");
+	background-color: whitesmoke;
+}
+
+.register {
+	padding:10px;
+	background-color: rgb(0, 255, 64);
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 50px;
+	border-width: 0px;
+	color:white;
+	font-weight:1000;
+	font-size: 15px;
+	cursor:pointer;
+
+}
+
+.register:hover {
+	background-color: rgb(23 193 66);
+
+}
+
+.registerBox input {
+	margin-left: 237px;
+}
+
+.error{
+	color:red;
+	margin-left:5px;
+}
